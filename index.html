@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="./script.js"></script>
+    <title>Covid Vaccine</title>
 </head>
+
 <body>
-    
+    <h1>Find vaccine slots here</h1>
+    <label>Enter your PIN</label>
+    <input type="text" id="pin">
+    <br />
+    <br />
+    <label>Choose date</label>
+    <input type="date" id="date">
+    <br />
+    <br />
+    <button onclick="run()">Search</button>
+    <div id="results"></div>
 </body>
+
 </html>
