@@ -72,9 +72,7 @@ async function run() {
 
     const res = document.getElementById("results")
     while (res.firstChild) res.removeChild(res.firstChild)
-    console.log(result.error)
-    console.log(date)
-    console.log(url)
+    
 
     if (result.error) { alert('Please enter the correct parameters') }
     else if (result.centers.length == 0) { alert('No centers available') }
